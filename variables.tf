@@ -16,7 +16,6 @@ variable "subnet_ids" {
 variable "vpc_endpoint_service_name" {
   type        = string
   description = "VPC Endpoint service name (e.g. `com.amazonaws.vpce.<region>.vpce-svc-<hash>`)"
-
 }
 
 variable "vpc_endpoint_service_type" {
